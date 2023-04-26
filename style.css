@@ -75,3 +75,24 @@ button{
     width: 369px;
     height: 480px;
 }
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second >.second-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 32px;
+}
+
+.img > img{
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882f6; 
+    border-radius: 20px;
+}
