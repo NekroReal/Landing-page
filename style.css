@@ -45,15 +45,16 @@ a{
     padding-top: 24px;
     padding-right: 24px;
 }
-
-button{
+.button1 {
     background-color: #3882f6;
     padding: 8px;
     border-radius: 10px;
     color: white;
     font-weight: 700;
     border: none;
+    margin-top: 16px;
 }
+
 
 .info{
     display: flex;
@@ -70,12 +71,14 @@ button{
     color: #f9faf8;
 }
 .p{
+    padding-top: 16px;
     font-size: 18px;
     color: #e5e7eb;
 }
 .info-img>img{
     width: 369px;
     height: 480px;
+    padding-bottom: 32px;
 }
 
 .second{
@@ -83,19 +86,21 @@ button{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    padding: 64px;
 }
 
 .content{
     display: flex;
     gap: 24px;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 .second >.second-header{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding-top: 32px;
+    padding-bottom: 24px;
 }
 
 .img > img{
@@ -104,10 +109,75 @@ button{
     border: 6px solid #3882f6; 
     border-radius: 20px;
 }
+.text{
+    font-size: 18px;
+}
 
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
+    padding: 16px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    margin: 0;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figcaption{
+    font-weight: 900;
+    padding-left: 500px;
+}
+.quote > .quote-text{
+    font-size: 36px;
+    font-style: italic;
+    justify-self: center;
+}
+
+.figura{
+    background-color: #3882f6;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-right: 360px;
+    margin-left: 360px;
+    border-radius: 10px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.add{
+    margin-left: 48px;
+}
+
+.button2{
+    font-weight: 900;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    border: 0,5px;
+    margin-right:48px ;
+    color: white;
+    border-style: solid;
+}
+
+.text1, .text2{
+    color: #f9faf8;
+    font-size: 18px ;
+}
+
+.text1{
+    font-weight: 800;
+}
+
+@media screen and (max-width: 768px){
+
 }
