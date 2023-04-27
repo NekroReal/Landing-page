@@ -28,10 +28,12 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    background-color: #1f2937;
+    padding: 16px;  
 }
-
+.header,.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
 a{
     text-decoration: none;
     color: #e5e7eb;
@@ -95,4 +97,11 @@ button{
     width: 200px;
     border: 6px solid #3882f6; 
     border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
 }
